@@ -1,0 +1,182 @@
+container {
+    width: 100%;
+    display: inline-block;
+}
+
+.bg-blue {
+    background-color: #6FB2F8;
+}
+
+.min-height {
+    height: 100vh;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+/********************************************
+*****************HEAD************************
+********************************************/
+
+.head{
+    display: inline-block;
+    width: 600px;
+    margin: 60px calc(( 100% - 600px ) / 2 ) 40px ;
+    text-align: center;
+}
+
+.head > img {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.head > h1 {
+    display: inline-block;
+    width: 100%;
+    /* margin-top: 60px; */
+    margin-bottom: 40px;
+    font-size: 60px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.head > p {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 60px;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.head > .clock {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.head > form {
+    display: inline-block;
+    width: 90%;
+    margin: 0 5% 25px;
+}
+
+.head > .mouse {
+    display: inline-block;
+}
+
+
+/********************************************
+*****************MAIN************************
+********************************************/
+
+.main {
+display: inline-block;
+width: 1100px;
+text-align: center;
+margin: 30px calc((100% - 1100px) / 2) 20px;
+}
+
+.main > .left {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin-right: 10%;
+}
+
+.main > .right {
+    display: inline-block;
+    width: 40%;
+    float: right;
+}
+
+.main h3 {
+    display: inline-block;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+
+}
+
+.main p {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 18px;
+
+}
+
+.main p > a {
+text-decoration: none;
+color: red;
+}
+
+.main > .progress-bar {
+
+}
+
+
+
+
+/********************************************
+*****************FOOT************************
+********************************************/
+
+.foot {
+    display: inline-block;
+    width: 1100px;
+    text-align: center;
+    margin: 0px calc((100% - 1100px) / 2) 20px;
+    color: rgb(208, 208, 208);
+    
+    }
+
+    .foot > .socials {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #fff;
+        width: 100%;
+        
+            }
+
+            .foot > .socials a {
+                color: #fff;
+                font-size: 20px;
+                line-height: 20px;
+                padding: 10px;
+                text-decoration: none;
+            }
+        
+
+.foot > .socials > a:hover{
+    background-color: #fff;
+    color: #6FB2F8 ;
+    border-radius: 50%;
+    width: 40px;
+}
+
+
+    .foot > .credits {
+    display: inline-block;
+    width: 100%;
+       }
+    
+       .foot > .credits > img {
+        padding: 30px 0 30px;
+    }
+
+    .foot > .credits p {
+        display: inline-block;
+        text-align: center;
+        font-size: 18px;
+        line-height: 36px;
+        width: 600px;
+        margin: 20px 0 20px;
+    }
+    .foot > .credits span {
+    }
+
+    .foot > .credits span a {
+        text-decoration: none;
+        color: #fff;
+    }
