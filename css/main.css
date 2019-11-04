@@ -9,7 +9,6 @@ container {
 
 .min-height {
     min-height: 100vh;
-    max-height: 100vh;
     background-image: url(../img/banner.jpg);
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -25,7 +24,7 @@ container {
     width: 600px;
     margin: 60px calc(( 100% - 600px ) / 2 ) 40px ;
     text-align: center;
-}
+    }
 
 .head > img {
     padding-top: 60px;
@@ -35,7 +34,6 @@ container {
 .head > h1 {
     display: inline-block;
     width: 100%;
-    /* margin-top: 60px; */
     margin-bottom: 40px;
     font-size: 60px;
     line-height: 60px;
@@ -59,7 +57,16 @@ container {
 .head > form {
     display: inline-block;
     width: 90%;
+    color: #fff;
     margin: 0 5% 25px;
+}
+
+.head > form > input {
+    color: #fff;
+    border-color: #fff;
+}
+.head > form > input::placeholder {
+    color: #fff;
 }
 
 .head > .mouse {
@@ -109,14 +116,20 @@ margin: 30px calc((100% - 1100px) / 2) 20px;
 
 .main p > a {
 text-decoration: none;
-color: red;
+color: #777;
 }
 
-.main > .progress-bar {
-
+.main form {
+    display: inline-block;
+    width: 100%;
 }
-
-
+    .main form input {
+        width: 45%;
+        float: left;
+    }
+    .main form input[name="email"] {
+        float: right;
+    }
 
 
 /********************************************
