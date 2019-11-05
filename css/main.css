@@ -78,7 +78,6 @@ container {
             width: 100%;
             padding: 0px 20px;
             margin: 0 0;
-            /* text-align: center; */
             min-height: none;
         }
         .clock > .time {
@@ -86,6 +85,13 @@ container {
         }
         .head > .mouse {
             display: none;
+        }
+        
+}
+
+@media (max-width: 300px){
+    .head > h1 {
+        font-size: 40px;
         }
 }
 
