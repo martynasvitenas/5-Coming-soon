@@ -73,6 +73,21 @@ container {
     display: inline-block;
 }
 
+@media (max-width: 800px) {
+            .head {
+            width: 100%;
+            padding: 0px 20px;
+            margin: 0 0;
+            /* text-align: center; */
+            min-height: none;
+        }
+        .clock > .time {
+         width: 50%;
+        }
+        .head > .mouse {
+            display: none;
+        }
+}
 
 /********************************************
 *****************MAIN************************
@@ -89,7 +104,7 @@ margin: 30px calc((100% - 1100px) / 2) 20px;
     display: inline-block;
     float: left;
     width: 50%;
-    margin-right: 10%;
+    margin: 0 10% 0 0;
 }
 
 .main > .right {
@@ -131,7 +146,49 @@ color: #777;
         float: right;
     }
 
+    @media (max-width: 1200px) {
+        .main {
+            width: 900px;
+            margin: 60px calc( (100% - 900px) / 2 );
+        }
+    }
 
+    @media (max-width: 900px) {
+        .main {
+            width: 700px;
+            margin: 40px calc( (100% - 700px) / 2 );
+        }
+    }
+
+    @media (max-width: 800px) {
+        .main {
+            width: 100%;
+            margin: 0px 0px;
+            padding: 20px 20px;
+        }
+        .main form input {
+            width: 100%;
+        }
+        .main > .right {
+            width: 100%;
+                }
+        .main > .left {
+        width: 100%;
+        }
+    }
+
+    @media (max-width: 650px) {
+        .main {
+            width: 100%;
+            margin: 60px 0px;
+        }
+        .main form input {
+            width: 100%;
+        }
+       
+    }
+
+    
 /********************************************
 *****************FOOT************************
 ********************************************/
@@ -193,10 +250,45 @@ color: #777;
         width: 600px;
         margin: 20px 0 20px;
     }
-    .foot > .credits span {
-    }
-
+    
     .foot > .credits span a {
         text-decoration: none;
         color: #fff;
+    }
+
+    @media (max-width: 1200px) {
+        .foot {
+            width: 900px;
+            margin: 0 calc( (100% - 900px) / 2 );
+        }
+    }
+
+    @media (max-width: 1000px) {
+        .foot {
+            width: 700px;
+            margin: 0 calc( (100% - 700px) / 2 );
+        }
+    }
+
+    @media (max-width: 800px) {
+        .foot {
+            width: 100%;
+            margin: 0px 0px;
+            padding: 20px 20px;
+        }
+        .foot > .btn {
+            display: none;
+        }
+        .foot > .credits p {
+            width: 100%;
+            
+        }
+    }
+
+    @media (max-width: 600px) {
+        .foot {
+            width: 100%;
+            margin: 0px 0px;
+            padding: 20px 20px;
+        }
     }
